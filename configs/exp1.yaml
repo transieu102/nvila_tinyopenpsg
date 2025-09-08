@@ -1,0 +1,9 @@
+clip_model: "ViT-B/32"
+input_pickle: "results/inference_results.pkl"
+is_open_set: true
+output:
+  save_dir: "results/exp1_open"
+  freq_vs_f1: "results/exp1_open/class_frequency_vs_f1_performance.png"
+  confusion_zero: "results/exp1_open/zero_shot_confusion_matrix.png"
+  confusion_finetune: "results/exp1_open/finetuned_confusion_matrix.png"
+  metrics_report: "results/exp1_open/classification_report.txt"

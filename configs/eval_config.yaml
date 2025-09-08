@@ -1,0 +1,12 @@
+train_json: data/finetune/tiny_psg_data/tiny_psg_multi_choice_data.json
+val_json: data/psg/psg_val_test.json
+coco_dir: data/coco
+
+pretrained_model: Efficient-Large-Model/NVILA-Lite-2B
+finetuned_model: runs/NVILA-Lite-2B-finetune-tiny_openpsg_lora/checkpoint-31636
+finetuned_base: Efficient-Large-Model/NVILA-Lite-2B
+
+save_path: results/inference_results.pkl
+
+# Optional: uncomment to limit number of samples
+# max_samples: 20

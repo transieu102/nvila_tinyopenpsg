@@ -1,0 +1,10 @@
+---
+TinyOpenPSGBasic:
+    _target_: llava.data.LLaVADataset
+    data_path: data/finetune/tiny_psg_data/tiny_psg_basic_data.json
+    media_dir: data/finetune/tiny_psg_data/
+
+TinyOpenPSGMultipleChoice:
+    _target_: llava.data.LLaVADataset
+    data_path: data/finetune/tiny_psg_data/tiny_psg_multi_choice_data.json
+    media_dir: data/finetune/tiny_psg_data/

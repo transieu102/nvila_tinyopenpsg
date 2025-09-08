@@ -1,0 +1,104 @@
+=== Zero-shot ===
+              precision    recall  f1-score   support
+
+about to hit      0.000     0.000     0.000        10
+ attached to      0.208     0.021     0.038       483
+      beside      0.144     0.160     0.152       827
+      biting      0.000     0.000     0.000         7
+    carrying      0.000     0.000     0.000        79
+    catching      0.000     0.000     0.000         3
+     chasing      0.000     0.000     0.000         3
+    cleaning      0.000     0.000     0.000         6
+    climbing      0.000     0.000     0.000         2
+    crossing      0.000     0.000     0.000        20
+    drinking      0.000     0.000     0.000         3
+     driving      0.000     0.000     0.000        26
+  driving on      0.000     0.000     0.000       174
+      eating      0.000     0.000     0.000        40
+   enclosing      0.000     0.000     0.000        89
+     exiting      0.000     0.000     0.000         2
+     feeding      0.000     0.000     0.000         6
+  going down      0.000     0.000     0.000         8
+     guiding      0.000     0.000     0.000         7
+     holding      1.000     0.004     0.008       259
+          in      0.062     0.031     0.041       226
+jumping from      0.000     0.000     0.000        16
+jumping over      0.000     0.000     0.000         8
+     kicking      0.000     0.000     0.000         2
+     kissing      0.000     0.000     0.000         1
+  leaning on      0.000     0.000     0.000        27
+  looking at      0.275     0.237     0.255       253
+          on      0.279     0.817     0.416      1248
+        over      0.085     0.006     0.012       618
+  painted on      0.000     0.000     0.000         3
+     picking      0.000     0.000     0.000         7
+     playing      0.000     0.000     0.000        69
+playing with      0.000     0.000     0.000        14
+     pulling      0.000     0.000     0.000         9
+     pushing      0.000     0.000     0.000         9
+      riding      0.500     0.015     0.029        66
+  running on      0.000     0.000     0.000        32
+  sitting on      0.000     0.000     0.000       155
+     slicing      0.000     0.000     0.000         6
+    swinging      0.000     0.000     0.000        15
+  talking to      0.000     0.000     0.000        30
+    touching      0.000     0.000     0.000        35
+  walking on      0.474     0.137     0.213       131
+     wearing      0.000     0.000     0.000       119
+
+    accuracy                          0.243      5153
+   macro avg      0.069     0.032     0.026      5153
+weighted avg      0.205     0.243     0.151      5153
+
+=== Finetuned ===
+              precision    recall  f1-score   support
+
+about to hit      0.455     0.500     0.476        10
+ attached to      0.567     0.360     0.441       483
+      beside      0.610     0.526     0.565       827
+      biting      0.000     0.000     0.000         7
+    carrying      0.667     0.025     0.049        79
+    catching      0.000     0.000     0.000         3
+     chasing      0.000     0.000     0.000         3
+    cleaning      0.000     0.000     0.000         6
+    climbing      0.000     0.000     0.000         2
+    crossing      0.000     0.000     0.000        20
+    drinking      0.000     0.000     0.000         3
+     driving      0.000     0.000     0.000        26
+  driving on      0.000     0.000     0.000       174
+      eating      0.889     0.400     0.552        40
+   enclosing      0.700     0.157     0.257        89
+     exiting      0.000     0.000     0.000         2
+     feeding      0.500     0.333     0.400         6
+  going down      0.000     0.000     0.000         8
+     guiding      0.000     0.000     0.000         7
+     holding      0.572     0.923     0.706       259
+          in      0.433     0.717     0.540       226
+jumping from      0.333     0.125     0.182        16
+jumping over      0.667     0.250     0.364         8
+     kicking      1.000     0.500     0.667         2
+     kissing      0.000     0.000     0.000         1
+  leaning on      0.000     0.000     0.000        27
+  looking at      0.555     0.340     0.422       253
+          on      0.530     0.823     0.644      1248
+        over      0.821     0.824     0.822       618
+  painted on      0.000     0.000     0.000         3
+     picking      0.000     0.000     0.000         7
+     playing      0.000     0.000     0.000        69
+playing with      0.045     0.071     0.056        14
+     pulling      0.000     0.000     0.000         9
+     pushing      0.500     0.333     0.400         9
+      riding      0.610     0.712     0.657        66
+  running on      0.833     0.312     0.455        32
+  sitting on      0.744     0.561     0.640       155
+     slicing      0.667     0.333     0.444         6
+    swinging      0.000     0.000     0.000        15
+  talking to      0.226     0.233     0.230        30
+    touching      0.000     0.000     0.000        35
+  walking on      0.530     0.679     0.595       131
+     wearing      0.598     0.538     0.566       119
+
+    accuracy                          0.579      5153
+   macro avg      0.319     0.240     0.253      5153
+weighted avg      0.552     0.579     0.540      5153
+
