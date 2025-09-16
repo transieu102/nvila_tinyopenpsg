@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 from PIL import Image
 import clip
 
-from test import PredicateClassificationResult
+from inference import PredicateClassificationResult
 
 
 # ================= HELPERS =================
