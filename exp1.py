@@ -8,7 +8,7 @@ from collections import Counter
 from sklearn.metrics import precision_recall_fscore_support, classification_report, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import clip
-from test import PredicateClassificationResult
+from inference import PredicateClassificationResult
 import os
 from tqdm import tqdm
 
